@@ -86,7 +86,7 @@ wget https://archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-confi
 
 sudo dpkg -i /tmp/raspi-config_20180406+1_all.deb 
 ```
-### For USB camera to work properly###
+### For USB camera to work properly
    	
 dit your /boot/config.txt file and make sure the following lines look like this:
 ```
