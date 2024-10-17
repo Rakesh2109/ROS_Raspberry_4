@@ -77,7 +77,7 @@ Enable command and data ports on Linux:
 ```bash
 sudo chmod 666 /dev/tty*
 ```
-###Raspi-Config Installation : ###
+### Raspi-Config Installation : ###
 
 ```bash
 apt-get install libnewt0.52 whiptail parted triggerhappy lua5.1 alsa-utils -y
@@ -86,7 +86,7 @@ wget https://archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-confi
 
 sudo dpkg -i /tmp/raspi-config_20180406+1_all.deb 
 ```
-###For USB camera to work properly###
+### For USB camera to work properly###
    	
 dit your /boot/config.txt file and make sure the following lines look like this:
 ```
